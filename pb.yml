@@ -1,1 +1,4 @@
-hi
+- hosts: all
+  tasks:
+  - name: to update
+    raw: apt-get update
