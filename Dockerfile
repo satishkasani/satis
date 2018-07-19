@@ -1,5 +1,4 @@
 FROM ubuntu
 RUN apt-get update
-RUN apt-get install tomcat -y
-EXPOSE 8080
-CMD ["service","tomcat","restart"]
+RUN apt-get install apache2 -y
+EXPOSE 80
