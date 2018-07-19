@@ -1,5 +1,5 @@
 FROM ubuntu
 RUN apt-get update
-RUN apt-get install tomcat7 -y
+RUN apt-get install tomcat -y
 EXPOSE 8080
-CMD ["service","tomcat7","restart"]
+CMD ["service","tomcat","restart"]
