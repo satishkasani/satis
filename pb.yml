@@ -2,3 +2,5 @@
   tasks:
   - name: to update
     raw: apt-get update
+  - name: to update
+    raw: apt-get update
